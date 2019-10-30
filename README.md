@@ -1,5 +1,7 @@
 # trim-php
 
+[![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][dependency-image]][dependency-url]
+
 Removes whitespace and other predefined characters.
 
 ## Install
@@ -85,3 +87,10 @@ Returns the modified string.
 ## Tested
 
 This package is tested with the `Node.js` and `React` Application. 
+
+[npm-image]: https://img.shields.io/npm/v/trim-php.svg
+[npm-url]: https://www.npmjs.com/package/trim-php
+[downloads-image]: https://img.shields.io/npm/dm/trim-php.svg
+
+[travis-image]: https://img.shields.io/travis/com/samiahmedsiddiqui/trim-php.svg
+[travis-url]: https://travis-ci.com/samiahmedsiddiqui/trim-php
