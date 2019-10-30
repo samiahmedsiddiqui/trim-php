@@ -1,6 +1,6 @@
 # trim-php
 
-[![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][npm-url] [![Build Status][travis-image]][travis-url]
+[![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][npm-url] [![Build Status][travis-image]][travis-url] [![AppVeyor Build Status][appveyor-image]][appveyor-url]
 
 Removes whitespace and other predefined characters.
 
@@ -92,5 +92,8 @@ This package is tested with the `Node.js` and `React` Application.
 [npm-url]: https://www.npmjs.com/package/trim-php
 [downloads-image]: https://img.shields.io/npm/dm/trim-php.svg
 
-[travis-image]: https://img.shields.io/travis/com/samiahmedsiddiqui/trim-php.svg
+[travis-image]: https://img.shields.io/travis/com/samiahmedsiddiqui/trim-php.svg?label=travis-ci
 [travis-url]: https://travis-ci.com/samiahmedsiddiqui/trim-php
+
+[appveyor-url]: https://ci.appveyor.com/project/samiahmedsiddiqui/trim-php
+[appveyor-image]: https://img.shields.io/appveyor/ci/samiahmedsiddiqui/trim-php.svg?label=appveyor
