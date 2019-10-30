@@ -1,6 +1,6 @@
 # trim-php
 
-[![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][dependency-image]][dependency-url]
+[![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][npm-url] [![Build Status][travis-image]][travis-url]
 
 Removes whitespace and other predefined characters.
 
