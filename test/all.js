@@ -1,4 +1,4 @@
-var trim = require('trim-php');
+var trim = require('../index');
 var str = '\n    Hello World!     \n';
 
 console.log('Without Trim: ', str);
