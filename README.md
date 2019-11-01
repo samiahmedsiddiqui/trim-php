@@ -7,12 +7,12 @@ Removes whitespace and other predefined characters.
 ## Install
 
 Via `npm`
-```
+```javascript
 npm install trim-php
 ```
 
 Via Yarn
-```
+```javascript
 yarn add trim-php
 ```
 
@@ -20,13 +20,13 @@ yarn add trim-php
 
 Import Package in `Node.js`.
 
-```
+```javascript
 var trim = require('trim-php');
 ```
 
 Import Package in `React`
 
-```
+```javascript
 import trim from 'trim-php';
 ```
 
@@ -34,7 +34,7 @@ import trim from 'trim-php';
 
 ### Removes whitespace and other predefined characters from the left side of a string
 
-```
+```javascript
 var trim = require('trim-php');
 var str = '\n    Hello World!     \n';
 
@@ -44,7 +44,7 @@ console.log('With lTrim: ', trim.lTrim(str));
 
 ### Removes whitespace and other predefined characters from the right side of a string
 
-```
+```javascript
 var trim = require('trim-php');
 var str = '\n    Hello World!     \n';
 
@@ -54,7 +54,7 @@ console.log('With rTrim: ', trim.rTrim(str));
 
 ### Removes whitespace and other predefined characters from both sides of a string
 
-```
+```javascript
 var trim = require('trim-php');
 var str = '\n    Hello World!     \n';
 
@@ -64,7 +64,7 @@ console.log('With trimPhp: ', trim.trimPhp(str));
 
 ### Removes whitespace and other predefined characters from both sides of a string in React
 
-```
+```jsx
 import trim from 'trim-php';
 
 var str = '\n    Hello World!     \n';
