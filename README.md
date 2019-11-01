@@ -32,7 +32,7 @@ import trim from 'trim-php';
 
 ## Examples
 
-### Removes whitespace and other predefined characters from the left side of a string.
+### Removes whitespace and other predefined characters from the left side of a string
 
 ```
 var trim = require('trim-php');
@@ -42,7 +42,7 @@ console.log('Without Trim: ', str);
 console.log('With lTrim: ', trim.lTrim(str));
 ```
 
-### Removes whitespace and other predefined characters from the right side of a string.
+### Removes whitespace and other predefined characters from the right side of a string
 
 ```
 var trim = require('trim-php');
@@ -52,7 +52,7 @@ console.log('Without Trim: ', str);
 console.log('With rTrim: ', trim.rTrim(str));
 ```
 
-### Removes whitespace and other predefined characters from both sides of a string.
+### Removes whitespace and other predefined characters from both sides of a string
 
 ```
 var trim = require('trim-php');
@@ -62,7 +62,7 @@ console.log('Without Trim: ', str);
 console.log('With trimPhp: ', trim.trimPhp(str));
 ```
 
-### Removes whitespace and other predefined characters from both sides of a string in `React`.
+### Removes whitespace and other predefined characters from both sides of a string in React
 
 ```
 import trim from 'trim-php';
@@ -75,10 +75,10 @@ console.log('With trimPhp: ', trim.trimPhp(str));
 
 ## Parameters
 
-| Attributes | Type | Required | Description |
-| ----------- | ----- | ----------- | ------------- |
-| str | String | Yes | Specifies the string to check. |
-| charList | String | No | Specifies which characters to remove from the string. |
+| Attributes |  Type  | Required | Description                                           |
+|------------|:------:|:--------:|-------------------------------------------------------|
+| str        | String |    Yes   | Specifies the string to check.                        |
+| charList   | String |    No    | Specifies which characters to remove from the string. |
 
 ## Return
 
