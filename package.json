@@ -6,7 +6,7 @@
   "files": [
     "LICENSE",
     "index.js",
-    "test/runkit.js"
+    "test/runkitExample.js"
   ],
   "scripts": {
     "test": "node test/all.js"
@@ -28,5 +28,5 @@
     "url": "https://github.com/samiahmedsiddiqui/trim-php/issues"
   },
   "homepage": "https://github.com/samiahmedsiddiqui/trim-php#readme",
-  "runkitExampleFilename": "test/runkit.js"
+  "runkitExampleFilename": "test/runkitExample.js"
 }
