@@ -2,7 +2,7 @@
 
 [![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][npm-url] [![Build Status][travis-image]][travis-url] [![AppVeyor Build Status][appveyor-image]][appveyor-url]
 
-Removes whitespace and other predefined characters.
+Strip whitespace (or other characters) of a string.
 
 ## Install
 
@@ -21,56 +21,105 @@ yarn add trim-php
 Import Package in `Node.js`.
 
 ```javascript
-var trim = require('trim-php');
+const trimPhp = require('trim-php').default;
 ```
 
-Import Package in `React`
+Import Package in `React`.
 
 ```javascript
-import trim from 'trim-php';
+import trimPhp from 'trim-php';
 ```
 
 ## Examples
 
-### Removes whitespace and other predefined characters from the left side of a string
+### Strip whitespace (or other characters) from the beginning of a string
+
+#### In V1
 
 ```javascript
-var trim = require('trim-php');
-var str = '\n    Hello World!     \n';
+const trim = require('trim-php');
+const str = '\n    Hello World!     \n';
 
 console.log('Without Trim: ', str);
 console.log('With lTrim: ', trim.lTrim(str));
 ```
 
-### Removes whitespace and other predefined characters from the right side of a string
+#### In V2
 
 ```javascript
-var trim = require('trim-php');
-var str = '\n    Hello World!     \n';
+const trimPhp = require('trim-php').default;
+const str = '\n    Hello World!     \n';
+
+console.log('Without Trim: ', str);
+console.log('With lTrim: ', new trimPhp().lTrim(str));
+```
+
+### Strip whitespace (or other characters) from the end of a string
+
+#### In V1
+
+```javascript
+const trim = require('trim-php');
+const str = '\n    Hello World!     \n';
 
 console.log('Without Trim: ', str);
 console.log('With rTrim: ', trim.rTrim(str));
 ```
 
-### Removes whitespace and other predefined characters from both sides of a string
+#### In V2
 
 ```javascript
-var trim = require('trim-php');
-var str = '\n    Hello World!     \n';
+const trimPhp = require('trim-php').default;
+const str = '\n    Hello World!     \n';
+
+console.log('Without Trim: ', str);
+console.log('With rTrim: ', new trimPhp().rTrim(str));
+```
+
+### Strip whitespace (or other characters) from the beginning and end of a string
+
+#### In V1
+
+```javascript
+const trim = require('trim-php');
+const str = '\n    Hello World!     \n';
 
 console.log('Without Trim: ', str);
 console.log('With trimPhp: ', trim.trimPhp(str));
 ```
 
-### Removes whitespace and other predefined characters from both sides of a string in React
+#### In V2
 
-```jsx
+```javascript
+const trimPhp = require('trim-php').default;
+const str = '\n    Hello World!     \n';
+
+console.log('Without Trim: ', str);
+console.log('With trim: ', new trimPhp().trim(str));
+```
+
+### Strip whitespace (or other characters) from the beginning and end of a string in React
+
+#### In V1
+
+```javascript
 import trim from 'trim-php';
 
 var str = '\n    Hello World!     \n';
 
 console.log('Without Trim: ', str);
 console.log('With trimPhp: ', trim.trimPhp(str));
+```
+
+#### In V2
+
+```jsx
+import trimPhp from 'trim-php';
+
+const str = '\n    Hello World!     \n';
+
+console.log('Without Trim: ', str);
+console.log('With trimPhp: ', new trimPhp().trim(str));
 ```
 
 ## Parameters
@@ -86,7 +135,7 @@ Returns the modified string.
 
 ## Tested
 
-This package is tested with the `Node.js` and `React` Application. 
+This package is tested with the `Node.js` and `React` Application.
 
 [npm-image]: https://img.shields.io/npm/v/trim-php.svg
 [npm-url]: https://www.npmjs.com/package/trim-php

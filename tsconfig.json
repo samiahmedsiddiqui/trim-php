@@ -1,9 +1,8 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "ES6",
     "module": "commonjs",
     "outDir": "",
-    "rootDir": "src",
     "removeComments": true,
     "strict": true,
     "noImplicitAny": true,
@@ -11,6 +10,10 @@
     "strictFunctionTypes": true,
     "moduleResolution": "node",
     "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true
-  }
+    "forceConsistentCasingInFileNames": true,
+    "declaration": true
+  },
+  "include": [
+    "src/*"
+  ]
 }

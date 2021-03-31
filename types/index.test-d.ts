@@ -1,7 +1,7 @@
-import { trimPhp, lTrim, rTrim } from './index';
+import trimPhp from './index';
 
-var str = '\n    Hello World!     \n';
+const str = '\n    Hello World!     \n';
 
-lTrim(str);
-rTrim(str);
-trimPhp(str);
+new trimPhp().lTrim(str);
+new trimPhp().rTrim(str);
+new trimPhp().trim(str);

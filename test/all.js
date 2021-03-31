@@ -1,7 +1,7 @@
-var trim = require('../index');
-var str = '\n    Hello World!     \n';
+const trimPhp = require('../index').default;
+const str = '\n    Hello World!     \n';
 
 console.log('Without Trim: ', str);
-console.log('With lTrim: ', trim.lTrim(str));
-console.log('With rTrim: ', trim.rTrim(str));
-console.log('With trimPhp: ', trim.trimPhp(str));
+console.log('With lTrim: ', new trimPhp().lTrim(str));
+console.log('With rTrim: ', new trimPhp().rTrim(str));
+console.log('With trimPhp: ', new trimPhp().trim(str));
