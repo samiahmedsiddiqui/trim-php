@@ -10,8 +10,7 @@
     "strictFunctionTypes": true,
     "moduleResolution": "node",
     "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
-    "declaration": true
+    "forceConsistentCasingInFileNames": true
   },
   "include": [
     "src/*"

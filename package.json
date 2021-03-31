@@ -1,7 +1,7 @@
 {
   "name": "trim-php",
   "version": "2.0.0",
-  "description": "Removes whitespace and other predefined characters.",
+  "description": "Strip whitespace (or other characters) of a string.",
   "main": "index.js",
   "files": [
     "LICENSE",
