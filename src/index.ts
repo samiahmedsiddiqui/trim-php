@@ -1,4 +1,4 @@
-export const lTrim = (str: string, charList: string): string => {
+export const lTrim = (str: string, charList?: string): string => {
   charList = !charList ? ' \\s\u00A0' : (charList + '');
   charList = charList.replace(/([[\]().?/*{}+$^:])/g, '$1');
 
@@ -7,7 +7,7 @@ export const lTrim = (str: string, charList: string): string => {
   return (str + '').replace(regex, '');
 };
 
-export const rTrim = (str: string, charList: string): string => {
+export const rTrim = (str: string, charList?: string): string => {
   charList = !charList ? ' \\s\u00A0' : (charList + '');
   charList = charList.replace(/([[\]().?/*{}+$^:])/g, '\\$1');
 
@@ -16,7 +16,7 @@ export const rTrim = (str: string, charList: string): string => {
   return (str + '').replace(regex, '');
 };
 
-export const trimPhp = (str: string, charList: string): string => {
+export const trimPhp = (str: string, charList?: string): string => {
   const whitespaceList: string[] = [
     ' ',
     '\n',
